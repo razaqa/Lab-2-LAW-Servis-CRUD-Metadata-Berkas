@@ -1,0 +1,29 @@
+venv
+env
+__pycache__/
+*.pyc
+.vscode
+*.sqlite3
+.coverage
+.env
+.env.dev
+.env.staging
+.env.production
+sonarqube.sh
+.scannerwork
+coverage.xml
+
+# Data seed
+data_seed/lembaga*
+data_seed_v2
+
+
+# Script bash
+migrate.local
+check-code.sh
+serve.sh
+credentials
+**/media/
+
+db_backend/
+
