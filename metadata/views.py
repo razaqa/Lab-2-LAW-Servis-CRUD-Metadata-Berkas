@@ -5,4 +5,3 @@ from .models import FileMetadata
 class FileMetadataCrudViewSet(ModelViewSet):
     queryset = FileMetadata.objects.all()
     serializer_class = FileMetadataSerializer
-    # http_method_names = ['get', 'put', 'patch', 'head', 'options', 'trace', 'delete',]
