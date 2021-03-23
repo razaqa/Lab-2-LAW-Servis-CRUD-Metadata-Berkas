@@ -1,5 +1,5 @@
-from rest_framework import serializers
 from .models import FileMetadata
+from rest_framework import serializers
 
 class FileMetadataSerializer(serializers.ModelSerializer):
     class Meta:
